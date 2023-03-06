@@ -14,11 +14,11 @@ Secondary goals :
 
 ## Content
 
-- [Dataset](##Dataset)
-- [Pipelines](##Pipelines)
-  - [Ingestion](###Ingestion)
-  - [Stream to S3](###Stream to S3)
-  - [Stream to DynamoDB](###Stream to DynamoDB)
+- [Dataset](#Dataset)
+- [Pipelines](#Pipelines)
+  - [Ingestion](#Ingestion)
+  - [Stream to S3](#Stream to S3)
+  - [Stream to DynamoDB](#Stream to DynamoDB)
 
 ## Dataset
 
