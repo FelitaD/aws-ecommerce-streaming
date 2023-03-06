@@ -18,7 +18,7 @@ Secondary goals :
 
 ## Dataset
 
-The dataset constisting of 8 columns and 25900 rows, represents transactions made on the e-commerce website.
+The dataset constisting of 8 columns and 541 909 rows, represents transactions made on the e-commerce website.
 
 Attributes : InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country.
 
