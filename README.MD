@@ -17,6 +17,8 @@ Secondary goals :
 - [Dataset](##Dataset)
 - [Pipelines](##Pipelines)
   - [Ingestion](###Ingestion)
+  - [Stream to S3](###Stream to S3)
+  - [Stream to DynamoDB](###Stream to DynamoDB)
 
 ## Dataset
 
@@ -30,7 +32,14 @@ Source : [E-commerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-dat
 
 ### Ingestion
 
-![Ingestion diagram](Ingestion/Ingestion.png)
+![Ingestion diagram](diagrams/Ingestion.png)
 
-### Data lake storage - Stream to S3
+### Stream to S3
+
+Data lake storage
+![Stream to S3 diagram](diagrams/Stream_to_S3.png)
+
+### Stream to DynamoDB
+
+![Stream_to_DynamoDB_diagram](pipelines/Stream_to_DynamoDB/Stream_to_DynamoDB.png)
 
