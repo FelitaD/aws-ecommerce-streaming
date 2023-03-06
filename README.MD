@@ -31,3 +31,6 @@ Source : [E-commerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-dat
 ### Ingestion
 
 ![Ingestion diagram](Ingestion/Ingestion.png)
+
+### Data lake storage - Stream to S3
+
