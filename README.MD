@@ -15,6 +15,8 @@ Secondary goals :
 ## Content
 
 - [Dataset](##Dataset)
+- [Pipelines](##Pipelines)
+  - [Ingestion](###Ingestion)
 
 ## Dataset
 
@@ -25,3 +27,7 @@ Attributes : InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice
 Source : [E-commerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-data) on Kaggle.
 
 ## Pipelines
+
+### Ingestion
+
+![Ingestion diagram](Ingestion/Ingestion.png)
