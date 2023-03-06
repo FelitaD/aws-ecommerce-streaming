@@ -37,6 +37,7 @@ Source : [E-commerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-dat
 ### Stream to S3
 
 Data lake storage
+
 ![Stream to S3 diagram](diagrams/Stream_to_S3.png)
 
 ### Stream to DynamoDB
