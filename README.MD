@@ -41,5 +41,5 @@ Data lake storage
 
 ### Stream to DynamoDB
 
-![Stream_to_DynamoDB_diagram](pipelines/Stream_to_DynamoDB/Stream_to_DynamoDB.png)
+![Stream_to_DynamoDB_diagram](diagrams/Stream_to_DynamoDB.png)
 
