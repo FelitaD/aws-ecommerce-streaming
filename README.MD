@@ -30,6 +30,9 @@ Source : [E-commerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-dat
 
 ## Pipelines
 
+The overall pipeline of the project:
+![All](diagrams/AWS_ecommerce_streaming-All.png)
+
 ### Ingestion
 
 ![Ingestion diagram](diagrams/Ingestion.png)
