@@ -51,5 +51,7 @@ After data has been put into Kinesis, a Lambda function pulls data directly from
 
 ### Stream to DynamoDB
 
+A Lambda function saves the streamed data in a NoSQL database / document store, DynamoDB.
+
 ![Stream_to_DynamoDB_diagram](diagrams/Stream_to_DynamoDB.png)
 
