@@ -40,6 +40,7 @@ Amazon services used but not indicated on the diagrams are IAM and Cloudwatch.
 We simulate streaming data by sending each line of a CSV with a Python script to the API Gateway.
 The Lambda function forwards the POST request to a Kinesis Data Stream.
 We can then access sent data with a GET request through Postman.
+
 ![Ingestion diagram](diagrams/Ingestion.png)
 
 ### Stream to S3
