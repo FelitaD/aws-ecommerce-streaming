@@ -30,20 +30,21 @@ Source : [E-commerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-dat
 
 ## Pipelines
 
-The overall pipeline of the project:<br>
+The platform consists of 3 pipelines, one that sends streaming data, one that stores it in a data lake, :<br>
 Amazon services used but not indicated on the diagrams are IAM and Cloudwatch. 
+
 ![All](diagrams/AWS_ecommerce_streaming-All.png)
 
 ### Ingestion
 
-We simulate streaming data by sending each line of a CSV with a Python script to the API gateway.
-The lambda function forwards the POST request to a Kinesis Data Stream.
+We simulate streaming data by sending each line of a CSV with a Python script to the API Gateway.
+The Lambda function forwards the POST request to a Kinesis Data Stream.
 We can then access sent data with a GET request through Postman.
 ![Ingestion diagram](diagrams/Ingestion.png)
 
 ### Stream to S3
 
-Data lake storage
+After data has been put into Kinesis, a Lambda function pulls data directly from Kinesis and saves them as files in S3.
 
 ![Stream to S3 diagram](diagrams/Stream_to_S3.png)
 
